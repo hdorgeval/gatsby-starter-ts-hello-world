@@ -58,7 +58,9 @@
     "import/extensions": [
       ".js",
       ".ts",
-      ".tsx"
+      ".tsx",
+      ".css",
+      ".scss"
     ]
   }
 }
