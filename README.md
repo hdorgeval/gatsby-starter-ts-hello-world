@@ -43,6 +43,30 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 - **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
 
+## CSS file usage
+
+Run script:
+
+```sh
+npm run css-watch
+```
+
+This will automatically create/update a `.d.ts` typings file whenever you add or modify a `.css` file.
+
+This will enable you to import `.css` file in any `.tsx` file, like for example:
+
+```sh
+import styles from './index.module.css';
+```
+
+Plus added support of IntelliSense in VSCode ;
+
+To update/create all `.css.d.ts` files in one shot:
+
+```sh
+npm run create-types-for-css-modules
+```
+
 ## 💫 Deploy
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/hdorgeval/gatsby-starter-ts-hello-world)

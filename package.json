@@ -5,6 +5,8 @@
   "scripts": {
     "build": "rimraf public && npm run format && npm run lint && npm run type-check && gatsby build",
     "check-format": "prettier --list-different \"src/**/*.{ts,tsx,css,html,json,md}\" ",
+    "create-types-for-css-modules": "tcm src -c",
+    "css-watch": "tcm src -c --watch",
     "develop": "gatsby develop",
     "eslint-init": "eslint --init",
     "format": "prettier --write \"src/**/*.{ts,tsx,css,html,json,md}\" ",
@@ -35,6 +37,7 @@
     "rimraf": "3.0.0",
     "stylelint": "10.1.0",
     "stylelint-config-recommended": "2.2.0",
+    "typed-css-modules": "0.6.2",
     "typescript": "3.6.2"
   },
   "repository": {
