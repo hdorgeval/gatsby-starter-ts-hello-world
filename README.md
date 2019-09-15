@@ -67,6 +67,30 @@ To update/create all `.css.d.ts` files in one shot:
 npm run create-types-for-css-modules
 ```
 
+## SASS file usage
+
+Run script:
+
+```sh
+npm run sass-watch
+```
+
+This will automatically create/update a `.d.ts` typings file whenever you add or modify a `.scss` file.
+
+This will enable you to import `.scss` file in any `.tsx` file, like for example:
+
+```sh
+import styles from './index.module.scss';
+```
+
+Plus added support of IntelliSense in VSCode ;
+
+To update/create all `.scss.d.ts` files in one shot:
+
+```sh
+npm run create-types-for-sass-modules
+```
+
 ## 💫 Deploy
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/hdorgeval/gatsby-starter-ts-hello-world)
