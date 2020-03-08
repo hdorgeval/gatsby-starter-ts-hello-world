@@ -15,7 +15,7 @@
 
     ```sh
     # create a new Gatsby site using the hello-world starter
-    gatsby new my-hello-world-starter https://github.com/hdorgeval/gatsby-starter-ts-hello-world
+    gatsby new my-hello-world-starter https://github.com/moomoo-ya/gatsby-starter-ts-asciidoc
     ```
 
 1.  **Start developing.**
@@ -93,4 +93,4 @@ npm run create-types-for-sass-modules
 
 ## 💫 Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/hdorgeval/gatsby-starter-ts-hello-world)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/moomoo-ya/gatsby-starter-ts-asciidoc)
