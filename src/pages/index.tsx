@@ -78,7 +78,8 @@ export default (result: { data: PageListObject; location: { pathname: string } }
         };
         return item;
       }
-    });
+    })
+    .sort((a, b) => moment(b.date).diff(moment(a.date)));
 
   return (
     <Layout location={result.location} title={data.site.siteMetadata.title}>
