@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-starter-ts-hello-world",
+  "name": "gatsby-starter-ts-asciidoc",
   "version": "1.0.0",
   "description": "Typescript Starter with the bare essentials needed for a Gatsby site",
   "scripts": {
@@ -20,18 +20,37 @@
     "type-check": "tsc"
   },
   "dependencies": {
-    "gatsby": "2.15.12",
+    "gatsby": "2.19.32",
+    "gatsby-image": "2.2.43",
+    "gatsby-plugin-react-helmet": "3.1.23",
     "gatsby-plugin-sass": "2.1.14",
+    "gatsby-plugin-sharp": "2.4.7",
     "gatsby-plugin-typescript": "2.1.7",
-    "node-sass": "4.12.0",
+    "gatsby-plugin-typography": "2.3.23",
+    "gatsby-remark-images": "3.1.46",
+    "gatsby-remark-prismjs": "3.3.33",
+    "gatsby-source-filesystem": "2.1.50",
+    "gatsby-transformer-asciidoc": "1.1.25",
+    "gatsby-transformer-remark": "2.6.55",
+    "gatsby-transformer-sharp": "2.3.17",
+    "moment": "2.24.0",
+    "node-sass": "4.13.1",
+    "prismjs": "1.19.0",
     "react": "16.9.0",
-    "react-dom": "16.9.0"
+    "react-dom": "16.9.0",
+    "react-helmet": "5.2.1",
+    "react-typography": "0.16.19",
+    "typeface-merriweather": "0.0.72",
+    "typography": "0.16.19",
+    "typography-theme-us-web-design-standards": "0.16.19"
   },
   "devDependencies": {
     "@types/node": "12.7.4",
     "@types/node-sass": "4.11.0",
     "@types/react": "16.9.2",
     "@types/react-dom": "16.9.0",
+    "@types/react-helmet": "5.0.15",
+    "@types/typography": "0.16.3",
     "@typescript-eslint/eslint-plugin": "2.2.0",
     "@typescript-eslint/parser": "2.2.0",
     "eslint": "6.3.0",

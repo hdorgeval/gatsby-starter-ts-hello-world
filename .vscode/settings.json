@@ -24,4 +24,7 @@
     "prettier.trailingComma": "all",
     "prettier.requireConfig": true,
     "jest.autoEnable": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
 }
