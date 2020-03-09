@@ -32,10 +32,11 @@ export default (data: { location: { pathname: string }; title: string; children:
     );
   } else {
     header = (
-      <h3
+      <span
         style={{
+          fontSize: `1.1487rem`,
+          fontWeight: 700,
           fontFamily: `Merriweather, sans-serif`,
-          marginTop: 0,
         }}
       >
         <Link
@@ -48,7 +49,7 @@ export default (data: { location: { pathname: string }; title: string; children:
         >
           {title}
         </Link>
-      </h3>
+      </span>
     );
   }
 
@@ -63,7 +64,11 @@ export default (data: { location: { pathname: string }; title: string; children:
     >
       <header>{header}</header>
       <main>{children}</main>
-      <footer>
+      <footer
+        style={{
+          borderTop: `1px solid darkgray`,
+        }}
+      >
         © {new Date().getFullYear()}, Built with
         {` `}
         <a href="https://www.gatsbyjs.org">Gatsby</a>
