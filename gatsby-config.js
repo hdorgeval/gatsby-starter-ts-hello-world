@@ -66,6 +66,7 @@ module.exports = {
         gfm: true,
         // Plugins configs
         plugins: [
+          'gatsby-remark-code-titles',
           {
             resolve: 'gatsby-remark-images',
             options: {
